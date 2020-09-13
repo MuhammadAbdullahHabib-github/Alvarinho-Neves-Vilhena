@@ -42,8 +42,8 @@ body {
 
 .date-div {
     border: 1px solid black;
-    height:120px;
-    width: 200px;
+    height:98%;
+    width: 16%;
     border-radius: 10px;
     position: absolute;
     top: 0px;
@@ -92,6 +92,10 @@ body {
     display: flex;
 }
 
+.examo-sr label {
+    width: 9%;
+}
+
 .examo-sr input {
     width: 100%;
     border: 0;
@@ -101,6 +105,10 @@ body {
 .contribuinte {
     width: 38.2%;
     display: flex;
+}
+
+.contribuinte label {
+    width: 23%;
 }
 
 .contribuinte input {
@@ -114,6 +122,10 @@ body {
     margin-bottom: 5px;
     width: 99%;
     display: flex;
+}
+
+.morada label{
+    width: 6%;
 }
 
 .morada input {
