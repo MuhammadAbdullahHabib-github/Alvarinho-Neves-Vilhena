@@ -99,7 +99,7 @@ body {
 }  
 
 .contribuinte {
-    width: 38%;
+    width: 38.2%;
     display: flex;
 }
 
@@ -188,12 +188,12 @@ display: flex;
 .heading {
     border: 1px solid black;
     border-radius: 5px;
-    width: 43%;
-    margin: 4px 5px;
+    width: 57%;
+    margin: 4px 0px;
     padding: 3px;
 }
 .heading p {
-    font-size: 7px;
+    font-size: 13px;
 }
 
 .RECEBI {
@@ -213,12 +213,14 @@ display: flex;
 }
 
 .Assinature h6 {
-   font-size: 9px;
+   font-size: 12px;
    text-align: center;
+   margin-top: 3px;
 }
 
 .para P {
-    font-size: 5px;
+    font-size: 11px;
+    margin: 0 4%;
 }
 
 .table-second-last {
@@ -237,8 +239,8 @@ display: flex;
 .table-two-last {
     width: 20%;
     float: left; 
-    margin: 0;
-    margin: 10px 0px;
+
+    margin: 10px 12px;
 }
 
 
@@ -249,8 +251,9 @@ display: flex;
 }
 
 .info-container input{
-    width: 100%;
+    width: 60%;
     border: 0;
+    border-bottom: 1px dotted black;
 }
 
 .print-btn {
@@ -277,4 +280,20 @@ display: flex;
 
 .btn:focus {
    outline: none;
+}
+
+.cont-zero {
+    width: 118%;
+}
+
+.cont-one {
+    width: 104%;
+}
+
+.cont-three {
+    width: 125%;
+}
+
+.cont-four {
+    margin-left: 30%;
 }
