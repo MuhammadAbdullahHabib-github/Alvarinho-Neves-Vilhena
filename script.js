@@ -1,0 +1,6 @@
+let today = new Date().toISOString().substr(0, 10);
+document.querySelector("#today").value = today;
+const print = document.getElementById('print-btn');
+print.addEventListener('click', function() {
+    window.print();
+})
