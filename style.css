@@ -29,9 +29,14 @@ time, mark, audio, video {
 body {
     font-family: 'Roboto', sans-serif; 
     margin: 5% auto;
-    width: 680px;
+    width: 595px;
+    
 }
 
+.main-container {
+    width: 100%;
+    height: 100%;
+}
 
 .main-section{
    position: relative;
@@ -103,7 +108,7 @@ body {
 
 
 .contribuinte input {
-    width: 52%;
+    width: 41%;
     border: 0;
     border-bottom: 1px solid black;
 }  
@@ -127,7 +132,11 @@ table {
     border-collapse: collapse;
     margin: 15px 5px 0px 5px;
     border-radius: 10px;
- }
+}
+
+input:focus {
+    outline: none;
+}
   
 th, td {
     border: 1px solid black;
@@ -318,4 +327,4 @@ display: flex;
          
       
     
-  }
+  
